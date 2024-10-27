@@ -8,8 +8,8 @@
 </head>
 <body>
 	<div>
-		<h1>Add Todo:</h1>
-		<form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF'])?>" method="post">
+		<h1 class="header">Add Todo</h1>
+		<form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF'])?>" method="post" class="myform">
 			<input type="text" name="todo">
 		    <input type="submit" value="Add">
 		</form>

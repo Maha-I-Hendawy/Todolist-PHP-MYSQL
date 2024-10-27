@@ -21,20 +21,24 @@
 
 	while($row = $stmt->fetch()){
 
-		echo '<h3>' . $row['todo'] . '</h3>';
+		echo '<h3 class="header">' . $row['todo'] . '</h3>';
+
+		echo '<div class="buttons">';
 
 		 echo  '<a href="update.php?todo_id=' . 
-            $row['todo_id'] . '">' . 'Update'; 
+            $row['todo_id'] . '" class="button">' . 'Update'; 
 
 
             echo  '</a>';
 
 
             echo  '<a href="delete.php?todo_id=' .
-            $row['todo_id'] . '">' . 'Delete';
+            $row['todo_id'] . '" class="button">' . 'Delete';
 
 
             echo '</a>';
+
+       echo '</div>';
 	}
 
 

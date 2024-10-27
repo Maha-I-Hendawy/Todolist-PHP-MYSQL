@@ -7,8 +7,8 @@
 	<title>Update Todo</title>
 </head>
 <body>
-	<h1>Update Todo: </h1>
-	<form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']) ?>" method="post">
+	<h1 class="header">Update Todo</h1>
+	<form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']) ?>" method="post" class="myform">
 		<?php
 
 		   require 'settings.php';
