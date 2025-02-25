@@ -58,8 +58,8 @@ This application is implemented with:
 
 
 ## References
-   - PHP:
-   - MySQL:
+   - [PHP](https://www.php.net/)
+   - [MySQL](https://www.mysql.com/)
 
      
  
